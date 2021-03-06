@@ -1,7 +1,7 @@
 <?php
 $Servername="localhost";
 $username="gamzesi1_1301";
-$sifre="130199Ga.";
+$sifre="******";
 $dbname="gamzesi1_1301";
 
 $baglan=mysqli_connect($Servername,$username,$sifre,$dbname);
