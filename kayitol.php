@@ -44,7 +44,7 @@ $kullanicimail->IsHTML(true);
 $kullanicimail->CharSet  ="utf-8";
     //$git="http://www.gamzesirakaya.com/veterinerservis/aktifet.php?mailAdres=".$kullanicimail."&dogrulamakodu=".$dogrulamakodu."";
     $kullanicimail->Username = "gamze@gamzesirakaya.com"; // Gönderici adresiniz (e-posta adresiniz)
-$kullanicimail->Password = "Gamze1234."; // Mail adresimizin sifresi
+$kullanicimail->Password = "*****"; // Mail adresimizin sifresi
 $kullanicimail->SetFrom("gamze@gamzesirakaya.com", "Gamze sırakaya"); // Mail atıldığında gorulecek isim ve email
 $kullanicimail->AddAddress("sirakayagamze3@gmail.com"); // Mailin gönderileceği alıcı adres
 $kullanicimail->Subject = "merhaba"; // Email konu başlığı
